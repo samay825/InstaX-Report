@@ -66,6 +66,7 @@ cd InstaX-Report
 pkg install rust clang libffi openssl -y
 pip install --upgrade pip setuptools wheel
 pip install cryptography
+pip install -r requirements.txt
 
 chmod +x setup-termux.sh
 bash setup-termux.sh
