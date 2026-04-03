@@ -63,6 +63,10 @@ python --version
 git clone https://github.com/samay825/InstaX-Report
 cd InstaX-Report
 
+pkg install rust clang libffi openssl -y
+pip install --upgrade pip setuptools wheel
+pip install cryptography
+
 chmod +x setup-termux.sh
 bash setup-termux.sh
 
