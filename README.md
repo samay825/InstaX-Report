@@ -60,9 +60,10 @@ python --version
 
 ```bash
 
-cd ~/report_tool
+git clone https://github.com/samay825/InstaX-Report
+cd InstaX-Report
 
-
+chmod +x setup-termux.sh
 bash setup-termux.sh
 
 # After setup, run from anywhere:
